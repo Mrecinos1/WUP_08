@@ -44,12 +44,23 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
+
+## Model LENGTH ~ HEADWTH  this is an example  
+
+```{r}
+simp <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
 The Summary 
 These are ordered from best to worst.
 
 For Headlen: The rse for this graph was 4.235   while the Adjusted R-squared was 0.8434 
 
 For Neck- The rse for this graph was 5.376  while the Adjusted R-squared was 0.7476 
+
+For Headwth: The rse for this graph was 7.32 while the Adjusted R-squared was 0.5321 
 
 For Age- The rse fot this graph was 7.511 while the Adjusted R-squared was 0.5073 
 
