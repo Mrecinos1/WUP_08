@@ -36,7 +36,16 @@ abline(simp)
 summary.lm(simp)
 ```
 
+The Summary 
+These are ordered from best to worst.
+
+For Neck- The rse for this graph was 5.376  while the Adjusted R-squared was 0.7476 
+
+For Age- The rse fot this graph was 7.511 while the Adjusted R-squared was 0.5073 
+
+
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
+
 
 
 
